@@ -35,9 +35,10 @@ class _NavigationTestState extends State<NavigationTest> {
   Widget build(BuildContext context) {
     //   globalContext = context;
     return MaterialApp(
-      initialRoute: '/',
+      home: MainScreen(),
+ //     initialRoute: '/',
       routes: {
-        '/': (context) => const MainScreen(),
+ //       '/': (context) => const MainScreen(),
         '/feedback': (context) => const FeedBack(),
         '/aboutus': (context) => const AboutUs(),
       },
